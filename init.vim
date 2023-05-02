@@ -12,14 +12,13 @@ call plug#begin()
 " Make sure you use single quotes
 Plug 'easymotion/vim-easymotion'
 
-" Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 " You can revert the settings after the call like so:
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting
 
-let g:EasyMotion_leader_key = '<Leader>'
+:let g:EasyMotion_leader_key = '<Leader>'
 :inoremap jk <Esc>
 :set relativenumber
 :set clipboard+=unnamedplus
